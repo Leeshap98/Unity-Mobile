@@ -1200,7 +1200,6 @@ GameObject:
   - component: {fileID: 1829464622}
   - component: {fileID: 1829464621}
   - component: {fileID: 1829464623}
-  - component: {fileID: 1829464626}
   - component: {fileID: 1829464625}
   - component: {fileID: 1829464624}
   m_Layer: 0
@@ -1329,20 +1328,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterController: {fileID: 1829464624}
   speed: 10
---- !u!114 &1829464626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829464620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9cb5993be2bee04db7172eccfb97f08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterController: {fileID: 0}
-  speed: 0
 --- !u!1 &1852767234
 GameObject:
   m_ObjectHideFlags: 0
